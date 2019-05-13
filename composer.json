@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "pfazzi/isbn": "^0.1",
+        "pfazzi/isbn": "^0.1.0",
         "doctrine/orm": "^2.5"
     },
     "require-dev": {
