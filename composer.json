@@ -46,19 +46,5 @@
             "@phpunit",
             "@phpcs"
         ]
-    },
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "pfazzi/isbn",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/pfazzi/pfazzi-isbn.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ]
+    }
 }
