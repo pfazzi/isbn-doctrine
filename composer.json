@@ -27,6 +27,11 @@
             "Pfazzi\\Isbn\\Doctrine\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Pfazzi\\Isbn\\Doctrine\\": "tests/"
+        }
+    },
     "scripts": {
         "lint": "parallel-lint src tests",
         "phpcs": "phpcs src tests --standard=psr2 -sp --colors",
