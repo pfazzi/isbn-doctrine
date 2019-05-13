@@ -22,7 +22,7 @@ class IsbnType extends Type
 
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
-        $field['length'] = 36;
+        $field['length'] = 13;
         $field['fixed']  = true;
 
         return $platform->getVarcharTypeDeclarationSQL($field);
